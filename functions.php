@@ -29,6 +29,9 @@
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
+/* Turn on SCRIPT_DEBUG during development. */
+define( 'SCRIPT_DEBUG', false );
+
 /* Get the template directory and make sure it has a trailing slash. */
 $hybrid_base_dir = trailingslashit( get_template_directory() );
 
