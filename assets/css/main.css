@@ -1,0 +1,100 @@
+/**
+ * Fonts - Declare @font-face here.
+ * --------------------------------------------------------------------------- */
+/**
+ * Defaults
+ * --------------------------------------------------------------------------- */
+/* === HTML === */
+/* === Body === */
+/* === Links === */
+/* === Headers === */
+/* === Blockquotes, quotes, and cites === */
+/* === Acronyms and abbreviations === */
+/* === Code and Preformatted text === */
+/* === <address> tag === */
+/* === Lists === */
+/* === Tables === */
+/* wp-calendar <table> */
+/* === Embeds === */
+/* === Forms === */
+/* Not all types, but these are more common for themes. */
+/* === Alignement (WP classes) === */
+/**
+ * Images
+ * --------------------------------------------------------------------------- */
+/* === WP editor image sizes === */
+/* === Thumbnails === */
+/* === Captions === */
+/* === Gallery === */
+/* === Avatars === */
+/**
+ * Layout
+ * --------------------------------------------------------------------------- */
+/**
+ * Header
+ * --------------------------------------------------------------------------- */
+/**
+ * Menus
+ * --------------------------------------------------------------------------- */
+/* ====== Primary Menu ====== */
+/* ====== Secondary Menu ====== */
+/* ====== Subsidiary Menu ====== */
+/**
+ * Content
+ * --------------------------------------------------------------------------- */
+/* ====== BREADCRUMBS ====== */
+/* ====== POSTS ====== */
+/* === Post Header === */
+/* === Post content and excerpts === */
+/* === Post Footer === */
+/* === Asides === */
+/* === Chats === */
+/* === Links === */
+/* === Galleries === */
+/* === Quotes === */
+/* === Status updates === */
+/* === Audio and Video === */
+/* ====== Attachment Meta (on image attachment pages) ====== */
+/* ====== LOOP META ====== */
+/* ====== PAGINATION ====== */
+/* === Single posts using <!--nextpage--> === */
+/* === Single post navigation (between different posts) === */
+/* === Archive-type pages === */
+/* === Comments pagination === */
+/**
+ * Sidebars and widgets
+ * --------------------------------------------------------------------------- */
+/* ====== General ====== */
+/* ====== Specific ====== */
+/**
+ * Comments Template
+ * --------------------------------------------------------------------------- */
+/* ====== COMMENTS ======= */
+/* === Comments closed message === */
+/* === Comment list === */
+/* === Individual comments */
+/* === Avatars === */
+/* === Meta === */
+/* === Comment text/content === */
+/* === Reply link === */
+.comment-reply-link {
+  display: inline-block;
+}
+
+/* ====== RESPOND (COMMENT FORM) ====== */
+/**
+ * Footer
+ * --------------------------------------------------------------------------- */
+/**
+ * Media Queries
+ * --------------------------------------------------------------------------- */
+/**
+ * Clearing Floats
+ * --------------------------------------------------------------------------- */
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
