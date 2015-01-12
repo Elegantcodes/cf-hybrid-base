@@ -75,6 +75,9 @@ function hybrid_base_register_sidebars() {
  * @return void
  */
 function hybrid_base_enqueue_scripts() {
+	wp_enqueue_script( 'modernizr', esc_url( trailingslashit( get_template_directory_uri() ) . 'assets/js/modernizr-2.8.3.min.js' ), array(), '20130528', false );
+	wp_enqueue_script( 'placeholder', esc_url( trailingslashit( get_template_directory_uri() ) . 'assets/js/jquery.placeholder.min.js' ), array( 'jquery' ), '20130528', true );
+	wp_enqueue_script( 'script', esc_url( trailingslashit( get_template_directory_uri() ) . 'assets/js/script.js' ), array( 'jquery', 'placeholder' ), '20130528', true );
 }
 
 /**
@@ -85,7 +88,6 @@ function hybrid_base_enqueue_scripts() {
  * @return void
  */
 function hybrid_base_enqueue_styles() {
-
 	/* Gets ".min" suffix. */
 	$suffix = hybrid_get_min_suffix();
 
@@ -103,5 +105,5 @@ function hybrid_base_enqueue_styles() {
 	}
 
 	/* Load active theme stylesheet. */
-	wp_enqueue_style( 'style', get_stylesheet_uri() );
+	wp_enqueue_style( 'main', trailingslashit( get_template_directory_uri() ) . 'assets/css/main.css' );
 }
